@@ -1,6 +1,15 @@
-.income{
+.income,.income2{
     text-align: center;
 }
 .expense{
+    text-align: center;
+}
+.discount{
+    text-align: center;
+}
+.percent{
+    text-align: center;
+}
+.savebtn{
     text-align: center;
 }
