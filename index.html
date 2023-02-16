@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    hrgdr
+    <section class="">
+      <div class="income ">
+        <h1 class="text-3xl text-bold mb-8">Income</h1>
+       <div>
+        Income :  <input id="income-input" class="w-3/12 bg-gray-300" type="text" placeholder="">
+       </div>
+      </div>
+
+      <!-- epense div ber -->
+      <div class="expense">
+        <h1 class="text-3xl text-bold mt-8">expense</h1>
+        <div>
+          Food :  <input id="food" class="bg-gray-300 mt-8 w-3/12" type="text" placeholder="">
+        </div>
+        <div>
+         
+           Rent: <input id="rent" class="bg-gray-300 mt-4 w-3/12" type="text" placeholder="">
+        </div>
+        <div>
+           Utilities : <input id="Utilities" class="bg-gray-300 mt-4 w-3/12" type="text" placeholder="">
+        </div>
+        <button id="calculate" class="bg-blue-400 rounded mt-4 px-6 py-2">Caculate</button>
+      </div>
+      <!-- total expense total balance -->
+      <div class="text-center">
+        <h4 class="mt-8 text-bold">Total Expenses:<span id="first-number">00</span></h4>
+        <h4 class="mt-4 text-bold">Balance:<span id="second-number">00</span></h4>
+      </div>
+    </section>
 <script src="js/money.js"></script>
 </body>
 </html>
